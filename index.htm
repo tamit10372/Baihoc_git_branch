@@ -7,5 +7,27 @@
   </head>
   <body>
     <h1>GIT Branch</h1>
+    <h2>Đây là cách chia nhiều nhóm làm việc trên cùng 1 dự án trên github</h2>
+    <h3>1. Xử lý branch trên máy máy tính</h3>
+    <ul>
+      <li>Xem nhánh (branch): git branch -a</li>
+      <li>
+        Tạo nhánh (branch): git branch -c tên_nhánh (nó sẽ lấy nguyên code trên
+        branch đang đứng)
+      </li>
+      <li>Chuyển đổi giữa các branch: git checkout tên_nhánh</li>
+      <li>
+        Tạo nhánh đồng thời chuyển sang nhánh mới tạo: git checkout -b tên_nhánh
+      </li>
+      <li>Xóa nhánh: git branch -d tên_nhánh, buộc xóa thay -d = -D</li>
+    </ul>
+    <h3>2. Sử lý branch trên github</h3>
+    <ul>
+      <li>
+        Upload branch lên github (ko đc xóa nhánh đang đứng): git push -u origin
+        tên_nhánh
+      </li>
+      <li>Xóa nhánh: git push -d origin tên_nhánh</li>
+    </ul>
   </body>
 </html>
